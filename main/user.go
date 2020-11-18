@@ -4,11 +4,6 @@ import (
 	"github.com/google/uuid"
 )
 
-/*
-type Model struct {
-	ID uuid.UUID       `gorm:"primary_key; type: uuid; default: uuid_generate_v4()"`
-}
-*/
 
 type User struct {
 	//gorm.Model
